@@ -4,11 +4,11 @@
 
 null check
 ```
-if [[ $CMD = *[!\ ] ]];* then
+if [[ $CMD = *[!\ ]* ]]; then
      ..
- else
+else
      ..
- fi
+fi
 ```
 
 ## awk
